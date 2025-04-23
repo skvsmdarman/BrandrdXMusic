@@ -11,7 +11,7 @@ from BrandrdXMusic.utils.database import add_served_chat, get_assistant
 @app.on_message(filters.command("repo"))
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/1aac9a42f6f35138da34b.jpg",
+        photo=f"https://pixvid.org/images/2025/04/23/photo_2024-10-28_04-28-35cbcb22c78005528a.jpg",
         caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
