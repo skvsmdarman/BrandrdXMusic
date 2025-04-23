@@ -32,7 +32,7 @@ async def start_pm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgUAAxkBAAEQI1RlTLnRAy4h9lOS6jgS5FYsQoruOAAC1gMAAg6ryVcldUr_lhPexzME")
+            await message.reply_sticker("CAACAgIAAxkBAAKnbGf9XTKoHrMBjNZOX74Z1X3PJlXLAAKVEQACoIK4SP_L9mYkHwN6NgQ")
             return await message.reply_photo(
                 photo=config.START_IMG_URL,
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
@@ -117,7 +117,7 @@ async def start_pm(client, message: Message, _):
 
             await lols.edit_text("**⚡ѕтαятιиg.**")
             await lols.edit_text("**⚡ѕтαятιиg....**")
-            m = await message.reply_sticker("CAACAgUAAxkBAAEQI1BlTLmx7PtOO3aPNshEU2gCy7iAFgACNQUAApqMuVeA6eJ50VbvmDME")
+            m = await message.reply_sticker("CAACAgIAAxkBAAKnb2f-Cn96wLumqpV86oVapwOdkeDEAAKHaAACEPvBSqKQpxAJc31PNgQ")
             if message.chat.photo:
 
                 userss_photo = await app.download_media(
