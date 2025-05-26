@@ -21,7 +21,8 @@ y = lg.Genius(
 y.verbose = False
 
 @app.on_message(filters.command(["lyrics"]) & ~BANNED_USERS)
-async def lrsearch(client, message: Message):
+@language
+async def lrsearch(client, message: Message, _):
     if len(message.command) < 2:
         return await message.reply_text(_["lyrics_1"])
 
